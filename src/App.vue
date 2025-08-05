@@ -1,11 +1,17 @@
-<script setup>
-
-</script>
-
 <template>
- <router-view />
+  <AppHeader />
+  <router-view />
+  <AppFooter />
 </template>
 
-<style scoped>
+<script>
+import AppHeader from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
 
-</style>
+export default {
+  components: {
+    AppHeader,
+    AppFooter
+  }
+}
+</script>
