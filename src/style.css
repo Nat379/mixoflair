@@ -1,0 +1,56 @@
+:root {
+  --color-dark-blue: #1E2732;
+  /* RAL 5003 – фон сайту */
+  --color-white: #F4F4F4;
+  /* RAL 9003 – текст, заголовки, логотипи */
+  --color-orange: #F75E25;
+  /* RAL 2004 – кнопки CTA */
+  --color-brown: #5B3A29;
+  /* RAL 8011 – акценти: іконки, декоративні елементи */
+  --color-metal: #D7D7D7;
+  /* RAL 7035 – металеві відтінки */
+}
+
+@font-face {
+  font-family: 'Burford Base';
+  src: url('@/assets/fonts/Burford-Base.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jano Sans Pro Medium';
+  src: url('@/assets/fonts/Jano-Sans-Pro-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jano Sans Pro Regular';
+  src: url('@/assets/fonts/Jano-Sans-Pro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trend Sans One';
+  src: url('@/assets/fonts/Latinotype-TrendSansOne.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-dark-blue);
+  color: var(--color-metal);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-orange);
+}
