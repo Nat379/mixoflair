@@ -120,7 +120,7 @@ h1 {
 import { ref } from 'vue'
 
 const products = ref([
-  { id: 1, title: 'Mixoflair Bartender Kit', image: '/mixoflair/src/assets/images/bartender-kit.jpg' },
+    { id: 1, title: 'Mixoflair Bartender Kit', image: './src/assets/images/bartender-kit.jpg' },
 ])
 
 const currentIndex = ref(0)

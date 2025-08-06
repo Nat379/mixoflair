@@ -33,7 +33,7 @@
   }
 
   ul {
-    width: 50%;
+    width: 60%;
     list-style: none;
     display: flex;
     flex-direction: row;
