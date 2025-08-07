@@ -2,6 +2,7 @@
   "name": "mixoflair",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://nat379.github.io/mixoflair/",
   "type": "module",
   "scripts": {
     "dev": "vite",
