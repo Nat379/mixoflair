@@ -1,16 +1,25 @@
 <template>
     <header>
-        <router-link to="/"><img src="/src/assets/images/logo.png" alt="logo" width="100px"></router-link>
-        <nav>
-                <ul>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#contacts">Contact us</a></li>
-                    <li><router-link to="/VideoRecipes">Video recipes</router-link></li>
-                </ul>
-        </nav>
+      <router-link to="/"><img src="/src/assets/images/logo.png" alt="logo" width="150px" /></router-link>
+      <nav>
+        <ul>
+          <li>
+            <router-link :to="{ path: '/', hash: '#products' }">Products</router-link>
+          </li>
+          <li>
+            <router-link :to="{ path: '/', hash: '#about' }">About us</router-link>
+          </li>
+          <li>
+            <router-link :to="{ hash: '#contacts' }">Contact us</router-link>
+          </li>
+          <li>
+            <router-link to="/VideoRecipes">Video recipes</router-link>
+          </li>
+        </ul>
+      </nav>
     </header>
   </template>
+  
   
   <style scoped>
   header {

@@ -52,7 +52,7 @@ export default [
   {
     id: 12,
     title: "Espresso martini",
-    category: "nick-and-nora",
+    category: "coupe",
     videoUrl: v12,
   },
   {
@@ -62,7 +62,7 @@ export default [
     videoUrl: v13,
   },
   { id: 14, title: "Godfather", category: "nick-and-nora", videoUrl: v14 },
-  { id: 15, title: "Grasshoper", category: "highball", videoUrl: v15 },
+  { id: 15, title: "Grasshoper", category: "nick-and-nora", videoUrl: v15 },
   { id: 16, title: "Kamikaze", category: "old-fashioned", videoUrl: v16 },
   { id: 17, title: "Knickerbocker", category: "old-fashioned", videoUrl: v17 },
   { id: 18, title: "Lemon basil margarita", category: "coupe", videoUrl: v18 },

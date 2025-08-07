@@ -103,15 +103,16 @@
     border-radius: 100px;
     border: 1px solid var(--color-orange);
     cursor: pointer;
-    background-color: var(--color-metal);
-    color: var(--color-dark-blue);
+    background-color: var(--color-dark-blue);
+    color: var(--color-metal);
     transition: 0.3s ease;
+    font-size: 22px;
   }
   
   .tab-item.active,
   .tab-item:hover {
-    color: var(--color-metal);
-    background-color: var(--color-dark-blue);
+    color: var(--color-dark-blue);
+    background-color: var(--color-metal);
   }
   
   .video-grid {

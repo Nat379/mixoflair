@@ -3,8 +3,8 @@
         <div class="footer-container">
             <p>Thanks for stopping by. <br> We’re here to help you shake things up — anytime.</p>
             <div class="media-icons">
-                <img src="/src/assets/images/amazon-icon.png" alt="amazon-icon">
-                <img src="/src/assets/images/instagram-icon.png" alt="instagram-icon">
+                <a href="https://www.amazon.com/stores/Mixoflair/page/18E8BF30-6973-4417-81EA-4E7CB8A2663D?is_byline_deeplink=true&deeplink=18E8BF30-6973-4417-81EA-4E7CB8A2663D&redirect_store_id=18E8BF30-6973-4417-81EA-4E7CB8A2663D&lp_asin=B0F93ZYY6Q&ref_=ast_bln"><img src="/src/assets/images/amazon-icon.png" alt="amazon-icon"></a>
+                <a href="https://www.instagram.com/m1xoflair_club/"><img src="/src/assets/images/instagram-icon.png" alt="instagram-icon"></a>
             </div>
         </div>
         <div class="footer-container">
