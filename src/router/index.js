@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import Mixoflairs from "../views/Mixoflairs.vue";
 import VideoRecipes from "../views/VideoRecipes.vue";
 
@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   scrollBehavior(to) {
     if (to.hash) {
@@ -25,6 +25,7 @@ const router = createRouter({
         behavior: "smooth",
       };
     }
+    return { top: 0 };
   },
 });
 

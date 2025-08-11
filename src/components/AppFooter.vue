@@ -37,5 +37,17 @@
   .media-icons img {
     width: 50px;
   }
+
+  @media (max-width: 860px) {
+
+    footer {
+      padding: 20px;
+      font-size: 14px;
+    }
+    
+    .footer-container {
+      width: fit-content;
+    }
+  }
   </style>
   

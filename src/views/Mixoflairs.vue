@@ -6,8 +6,9 @@
             Your browser does not support the video tag.
             </video>
             <div class="offer">
-                <p class="offer-text">Shake it up with fun, easy video recipes made just for your Mixoflair kit! From classics to signature twists — let the cocktail magic begin.</p>
-                <router-link to="/VideoRecipes">Video recipes</router-link>
+              <h1>Shake it up with fun</h1>
+                <p class="offer-text">Easy video recipes made just for your Mixoflair kit! From classics to signature twists — let the cocktail magic begin.</p>
+                <router-link to="/VideoRecipes"><div class="video-recipes-btn">Video recipes</div></router-link>
             </div>
         </div>
     </div>
@@ -58,6 +59,22 @@
     align-items: center;
     }
 
+    .video-recipes-btn {
+    display: flex;
+    background-color: var(--color-dark-blue);
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 30px;
+    border: 2px solid var(--color-orange);
+    color: var(--color-white);
+    }
+
+    .video-recipes-btn:hover {
+      background-color: var(--color-white);
+      border: 2px solid var(--color-white);
+      color: var(--color-orange);
+    }
+
     video {
         position: absolute;
         top: 0;
@@ -69,20 +86,27 @@
     }
 
     .offer {
+    width: 40%;
+    height: 80%;
     z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
     background: none;
     font-family: 'Burford Base', sans-serif;
-    font-size: 54px;
+    font-size: 22px;
     text-align: justify;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     border-radius: 40px;
     padding: 20px;
     }
+.offer-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 40px;
+}
+
 
 h1 {
     display: flex;
@@ -127,14 +151,21 @@ h1 {
 }
 
 .product-images {
-    width: 100%;
-}
+    width: 97%;
+    padding: 20px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
 .product-images img {
-    width: 100vw;
+    width: 99%;
+    margin: 0 auto;
 }
 
 .images-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -142,19 +173,81 @@ h1 {
 }
 
 .images-container  img {
-    width: 48%;
+    width: 49%;
     margin: 0.5%;
 }
+
+@media (max-width: 860px) {
+  .hero {
+    width: 77%;
+    height: auto;
+    padding: 0 5%;
+  }
+
+  .offer {
+    width: 100%;
+    font-size: 14px;
+    text-align: justify;
+    height: 400px;
+  }
+
+  .offer p {
+    display: none;
+  }
+
+  .video-recipes-btn {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 28px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider {
+    margin: 0;
+    gap: 0;
+  }
+
+  .slide {
+    width: 78%;
+  }
+
+  .slide a {
+    font-size: 14px;
+  }
+
+  .product-images {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .images-container {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .images-container img {
+    width: 100%;
+  }
+}
+
 </style>
 
 <script setup>
 import { ref } from 'vue'
 import mainVideo from '@/assets/videos/main-page-video.mp4'
+import img1 from '@/assets/images/bartender-kit.jpg'
 const products = ref([
   {
     id: 1,
     title: 'Mixoflair Bartender Kit',
-    image: './src/assets/images/bartender-kit.jpg',
+    image: img1,
     link: 'https://www.amazon.com/dp/B0F93ZYY6Q?maas=maas_adg_90A557194165039A1C03E906ABF77B14_afap_abs&ref_=aa_maas&tag=maas'
   },
 ])

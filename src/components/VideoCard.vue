@@ -1,14 +1,14 @@
 <template>
     <div class="video-card" @click="onClick">
-      <video
-        class="video-preview"
-        :src="video.videoUrl"
-        preload="metadata"
-        muted
-        playsinline
-      ></video>
+      <img
+      class="video-thumbnail"
+      :src="video.thumbnail"
+      :alt="video.title"
+      loading="lazy"
+    />
       <div class="video-info">
         <h3>{{ video.title }}</h3>
+        <p>{{ video.description }}</p>
       </div>
     </div>
   </template>
@@ -31,6 +31,13 @@
   </script>
   
   <style scoped>
+
+.video-thumbnail {
+  width: 100%;
+  height: 66%;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-orange);
+}
   .video-card {
     display: flex;
     flex-direction: column;

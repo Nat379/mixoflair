@@ -78,11 +78,13 @@
     flex-direction: column;
   }
   h1, h2 {
+    width: 90%;
     display: flex;
     justify-content: center;
     color: var(--color-metal);
     text-align: center;
     margin: 20px auto;
+    font-family: 'Burford Base', sans-serif;
   }
   
   .tabs {
@@ -120,6 +122,10 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 24px;
     padding: 0 16px 32px;
+  }
+
+  @media (max-width: 860px) {
+
   }
   </style>
   
