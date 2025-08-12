@@ -1,10 +1,11 @@
 <template>
     <div>
         <div class="hero">
-            <video autoplay muted loop>
+          <video autoplay muted loop playsinline>
             <source :src="mainVideo" type="video/mp4">
             Your browser does not support the video tag.
-            </video>
+          </video>
+
             <div class="offer">
               <h1>Shake it up with fun</h1>
                 <p class="offer-text">Easy video recipes made just for your Mixoflair kit! From classics to signature twists — let the cocktail magic begin.</p>
