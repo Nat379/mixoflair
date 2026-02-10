@@ -1,36 +1,3 @@
-import v1 from "@/assets/videos/20th-century.mp4";
-import v2 from "@/assets/videos/amaretto-sour.mp4";
-import v3 from "@/assets/videos/big-lebowski.mp4";
-import v4 from "@/assets/videos/boulevardier.mp4";
-import v5 from "@/assets/videos/bramble.mp4";
-import v6 from "@/assets/videos/cilantro-margarita.mp4";
-import v7 from "@/assets/videos/clover-club.mp4";
-import v8 from "@/assets/videos/cucumber-gin-sour.mp4";
-import v9 from "@/assets/videos/daiquiri.mp4";
-import v10 from "@/assets/videos/dark-n-stormy.mp4";
-import v11 from "@/assets/videos/enzoni.mp4";
-import v12 from "@/assets/videos/espresso-martini.mp4";
-import v13 from "@/assets/videos/gin-basil-smash.mp4";
-import v14 from "@/assets/videos/godfather.mp4";
-import v15 from "@/assets/videos/grasshoper.mp4";
-import v16 from "@/assets/videos/kamikaze.mp4";
-import v17 from "@/assets/videos/knickerbocker.mp4";
-import v18 from "@/assets/videos/lemon-basil-margarita.mp4";
-import v19 from "@/assets/videos/manhattan.mp4";
-import v20 from "@/assets/videos/margarita.mp4";
-import v21 from "@/assets/videos/minty-gin-fizz.mp4";
-import v22 from "@/assets/videos/mojito.mp4";
-import v23 from "@/assets/videos/moskow-mule.mp4";
-import v24 from "@/assets/videos/negroni.mp4";
-import v25 from "@/assets/videos/old-fashioned.mp4";
-import v26 from "@/assets/videos/Paloma.mp4";
-import v27 from "@/assets/videos/ramos-gin-fizz.mp4";
-import v28 from "@/assets/videos/revolver.mp4";
-import v29 from "@/assets/videos/srtawberry-sour.mp4";
-import v30 from "@/assets/videos/strawberry-margo.mp4";
-import v31 from "@/assets/videos/west-side.mp4";
-import v32 from "@/assets/videos/whiskey-sour.mp4";
-import v33 from "@/assets/videos/white-lady.mp4";
 import thumb1 from "@/assets/images/20x-century.webp";
 import thumb2 from "@/assets/images/amaretto-sour.webp";
 import thumb3 from "@/assets/images/big-lebowski.webp";
@@ -70,7 +37,6 @@ export default [
     id: 1,
     title: "20th century",
     category: "nick-and-nora",
-    videoUrl: v1,
     description: "Smooth, bold, unforgettable.",
     thumbnail: thumb1,
   },
@@ -78,7 +44,6 @@ export default [
     id: 2,
     title: "Amaretto sour",
     category: "nick-and-nora",
-    videoUrl: v2,
     description: "Sweet, smooth, and just the right amount of dangerous.",
     thumbnail: thumb2,
   },
@@ -86,7 +51,6 @@ export default [
     id: 3,
     title: "Big lebowski",
     category: "old-fashioned",
-    videoUrl: v3,
     description: "The Dude abides — and so do we. Creamy, bold, unforgettable.",
     thumbnail: thumb3,
   },
@@ -94,7 +58,6 @@ export default [
     id: 4,
     title: "Boulevardier",
     category: "old-fashioned",
-    videoUrl: v4,
     description: "Bourbon meets bitter in the most elegant way.",
     thumbnail: thumb4,
   },
@@ -102,7 +65,6 @@ export default [
     id: 5,
     title: "Bramble",
     category: "old-fashioned",
-    videoUrl: v5,
     description: "Gin. Berries. Magic in a glass.",
     thumbnail: thumb5,
   },
@@ -110,7 +72,6 @@ export default [
     id: 6,
     title: "Cilantro margarita",
     category: "coupe",
-    videoUrl: v6,
     description: "Fresh, funky, and absolutely addictive.",
     thumbnail: thumb6,
   },
@@ -118,7 +79,6 @@ export default [
     id: 7,
     title: "Clover club",
     category: "coupe",
-    videoUrl: v7,
     description: "Pink never tasted so sophisticated.",
     thumbnail: thumb7,
   },
@@ -126,7 +86,6 @@ export default [
     id: 8,
     title: "Cucumber gin sour",
     category: "nick-and-nora",
-    videoUrl: v8,
     description: "Crisp, clean, and irresistibly cool.",
     thumbnail: thumb8,
   },
@@ -134,7 +93,6 @@ export default [
     id: 9,
     title: "Daiquiri",
     category: "coupe",
-    videoUrl: v9,
     description: "Simple. Perfect. Timeless.",
     thumbnail: thumb9,
   },
@@ -142,7 +100,6 @@ export default [
     id: 10,
     title: "Dark 'n' stormy",
     category: "highball",
-    videoUrl: v10,
     description: "Bold rum meets spicy ginger — feel the storm.",
     thumbnail: thumb10,
   },
@@ -150,7 +107,6 @@ export default [
     id: 11,
     title: "Enzoni",
     category: "old-fashioned",
-    videoUrl: v11,
     description: "Grapes, gin, and a modern Italian twist.",
     thumbnail: thumb11,
   },
@@ -158,7 +114,6 @@ export default [
     id: 12,
     title: "Espresso martini",
     category: "coupe",
-    videoUrl: v12,
     description: "Perk up and pour up — it’s espresso o’clock.",
     thumbnail: thumb12,
   },
@@ -166,7 +121,6 @@ export default [
     id: 13,
     title: "Gin basil smash",
     category: "old-fashioned",
-    videoUrl: v13,
     description: "Green, clean, and dangerously drinkable.",
     thumbnail: thumb13,
   },
@@ -174,7 +128,6 @@ export default [
     id: 14,
     title: "Godfather",
     category: "old-fashioned",
-    videoUrl: v14,
     description: "Scotch + Amaretto = respect.",
     thumbnail: thumb14,
   },
@@ -182,7 +135,6 @@ export default [
     id: 15,
     title: "Grasshoper",
     category: "nick-and-nora",
-    videoUrl: v15,
     description: "Mint chocolate, shaken not stirred.",
     thumbnail: thumb15,
   },
@@ -190,7 +142,6 @@ export default [
     id: 16,
     title: "Kamikaze",
     category: "old-fashioned",
-    videoUrl: v16,
     description: "One shot, one thrill.",
     thumbnail: thumb16,
   },
@@ -198,7 +149,6 @@ export default [
     id: 17,
     title: "Knickerbocker",
     category: "old-fashioned",
-    videoUrl: v17,
     description: "Raspberry meets rum in this vintage charmer.",
     thumbnail: thumb17,
   },
@@ -206,7 +156,6 @@ export default [
     id: 18,
     title: "Lemon basil margarita",
     category: "coupe",
-    videoUrl: v18,
     description: "A twist on the classic — bright, herbal, and bold.",
     thumbnail: thumb18,
   },
@@ -214,7 +163,6 @@ export default [
     id: 19,
     title: "Manhattan",
     category: "coupe",
-    videoUrl: v19,
     description: "Where bourbon meets elegance — timeless AF.",
     thumbnail: thumb19,
   },
@@ -222,7 +170,6 @@ export default [
     id: 20,
     title: "Margarita",
     category: "coupe",
-    videoUrl: v20,
     description: "Salt. Lime. Legendary.",
     thumbnail: thumb20,
   },
@@ -230,7 +177,6 @@ export default [
     id: 21,
     title: "Minty gin fizz",
     category: "highball",
-    videoUrl: v21,
     description: "Bubbly, minty, and made for summer nights.",
     thumbnail: thumb21,
   },
@@ -238,7 +184,6 @@ export default [
     id: 22,
     title: "Mojito",
     category: "highball",
-    videoUrl: v22,
     description: "Cuba in a glass. Fresh, zesty, unstoppable.",
     thumbnail: thumb22,
   },
@@ -246,7 +191,6 @@ export default [
     id: 23,
     title: "Moskow mule",
     category: "old-fashioned",
-    videoUrl: v23,
     description: "Zingy, icy, and served with a kick.",
     thumbnail: thumb23,
   },
@@ -254,7 +198,6 @@ export default [
     id: 24,
     title: "Negroni",
     category: "old-fashioned",
-    videoUrl: v24,
     description: "Bitter. Bold. Beautiful.",
     thumbnail: thumb24,
   },
@@ -262,7 +205,6 @@ export default [
     id: 25,
     title: "Old fashioned",
     category: "old-fashioned",
-    videoUrl: v25,
     description: "The king of classics — don’t mess with perfection.",
     thumbnail: thumb25,
   },
@@ -270,7 +212,6 @@ export default [
     id: 26,
     title: "Paloma",
     category: "highball",
-    videoUrl: v26,
     description: "Tequila’s bubbly best friend.",
     thumbnail: thumb26,
   },
@@ -278,7 +219,6 @@ export default [
     id: 27,
     title: "Ramos gin fizz",
     category: "highball",
-    videoUrl: v27,
     description: "Creamy, citrusy, cloudlike. Worth the shake.",
     thumbnail: thumb27,
   },
@@ -286,7 +226,6 @@ export default [
     id: 28,
     title: "Revolver",
     category: "nick-and-nora",
-    videoUrl: v28,
     description: "Bourbon meets coffee, and sparks fly.",
     thumbnail: thumb28,
   },
@@ -294,7 +233,6 @@ export default [
     id: 29,
     title: "Srtawberry sour",
     category: "nick-and-nora",
-    videoUrl: v29,
     description: "Tart, sweet, and pink perfection.",
     thumbnail: thumb29,
   },
@@ -302,7 +240,6 @@ export default [
     id: 30,
     title: "Strawberry Margo",
     category: "coupe",
-    videoUrl: v30,
     description: "Sunshine in a glass. Sweet tropical escape.",
     thumbnail: thumb30,
   },
@@ -310,7 +247,6 @@ export default [
     id: 31,
     title: "West side",
     category: "nick-and-nora",
-    videoUrl: v31,
     description: "Citrus, mint, and that uptown feel.",
     thumbnail: thumb31,
   },
@@ -318,7 +254,6 @@ export default [
     id: 32,
     title: "Whiskey sour",
     category: "old-fashioned",
-    videoUrl: v32,
     description: "Sour, strong, and seriously satisfying.",
     thumbnail: thumb32,
   },
@@ -326,7 +261,6 @@ export default [
     id: 33,
     title: "White lady",
     category: "coupe",
-    videoUrl: v33,
     description: "Elegant, zesty, and dangerously smooth.",
     thumbnail: thumb33,
   },
